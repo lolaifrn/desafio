@@ -1,0 +1,114 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#13547a, #80d0c7);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.inputs input{
+    background-color: transparent;
+    padding: 10px;
+    border-color: #e5f7f4;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+.inputs .email{
+    margin-bottom:0;
+}
+
+
+input::placeholder{
+    color: #e5f7f4;
+}
+
+.botaoAdd{
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    transition: transform 0.5s;
+}
+
+.botaoAdd:hover{
+    transform: scale(1.2);
+}
+
+.botaoCtt{
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    transition: transform 0.5s;
+    margin-left: 18px;
+}
+
+.botaoCtt:hover{
+    transform: scale(1.2);
+}
+
+.botaoTexto{
+    color: #13547a;
+    font-weight: bold;
+    margin-left: 5px
+}
+
+
+
+
+.title{
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Big Shoulders Text', cursive;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.subtitle{
+    color: white;
+}
+
+.text{
+    color: #fff;
+}
+
+.asterisc{
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+}
+
